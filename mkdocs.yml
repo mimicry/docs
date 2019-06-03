@@ -1,0 +1,17 @@
+site_name: mimicry docs
+theme: readthedocs
+copyright: Copyright &copy; 2019 <a href="https://github.com/mimicry/mimicry">mimicry</a>
+site_author: fastlane team
+site_description: Documentation for mimicry tools, the easiest way to clone template projects
+
+repo_url: https://github.com/mimicry/docs
+strict: true
+markdown_extensions:
+- pymdownx.headeranchor
+- markdown.extensions.attr_list
+- markdown_include.include
+- mdx_truly_sane_lists
+theme_dir: theme
+pages:
+- Home: index.md
+
